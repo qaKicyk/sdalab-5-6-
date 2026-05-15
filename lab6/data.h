@@ -18,5 +18,11 @@ void inorder(Node* root);
 void postorder(Node* root);
 void bfs(Node* root);
 void freeTree(Node* root);
+int height(Node* node);
+Node* deleteNode(Node* root, int key);
+Node* findMin(Node* root);
+Node* findMax(Node* root);
+void saveToFile(Node* root, FILE* fp);
+Node* loadFromFile(FILE* fp);
 
 #endif
